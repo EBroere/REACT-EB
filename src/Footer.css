@@ -1,0 +1,22 @@
+.Footer {
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+}
+
+.Footer p {
+  font-size: 15px;
+}
+
+.Footer a {
+  color: #294764;
+  text-decoration: none;
+}
+
+.Footer a:hover {
+  color: #ffe345;
+  text-decoration: underline;
+}
+
+.Footer-emoji {
+  color: initial;
+}

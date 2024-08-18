@@ -1,0 +1,23 @@
+.Info li {
+  font-size: 15px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.Info ul {
+  padding: 0;
+}
+
+h1 {
+  text-align: left !important;
+}
+
+ul,
+li {
+  list-style-type: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
+}
+
+
