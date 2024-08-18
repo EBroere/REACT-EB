@@ -16,7 +16,7 @@ export default function Footer() {
         <span className="footer-emoji">🧍🏽‍♀️ </span>
         and is on{" "}
         <a
-          href="https://github.com/EBroere/react-app"
+          href="https://github.com/EBroere/react-eb"
           target="_blank"
           rel="noreferrer"
         >
@@ -24,7 +24,7 @@ export default function Footer() {
         </a>
         and hosted on{" "}
         <a
-          href="https://react-app-eb.netlify.app/"
+          href="https://react-eb.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
