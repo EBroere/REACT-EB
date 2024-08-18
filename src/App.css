@@ -4,20 +4,14 @@ body {
 
 .App {
   color: #24415e;
-  margin: 50px 200px;
+  margin: 100px 130px;
   background: #ffffff;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 30px;
-  font-family: "Comfortaa", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
   text-align: center;
 }
 
-.App Col {
-  flex: 50%;
-}
-
-.App Row {
-  display: flex;
+.container {
+  margin: 100px;
 }
