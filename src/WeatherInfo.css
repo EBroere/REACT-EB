@@ -20,4 +20,6 @@ li {
   text-align: left !important;
 }
 
-
+.WeatherIcon {
+  margin-right: 10px;
+}

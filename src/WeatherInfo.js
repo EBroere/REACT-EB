@@ -12,11 +12,28 @@ export default function WeatherInfo(props) {
           <h1>{props.data.city}</h1>
           <ul>
             <li>
-              <FormattedDate date={props.data.date} />, {props.data.description}
+              Day & Time:{" "}
+              <strong>
+                <FormattedDate date={props.data.date} />
+              </strong>
+              ,
+            </li>
+            <li>
+              Condition: <strong>{props.data.description}</strong>,
             </li>
             <li>
               Humidity: <strong>{props.data.humidity}%</strong>, Wind:{" "}
-              <strong>{props.data.wind}km/h</strong>
+              <strong>{props.data.wind}km/h</strong>,
+            </li>
+
+            <li>
+              Feels Like: <strong>props.data.feels_like</strong>, Pressure:
+              <strong>props.data.pressure</strong>,
+            </li>
+            <li>
+              Coordinates: lat.{" "}
+              <strong>props.data.longitude</strong>, long.{" "}
+              <strong>props.data.latitude</strong>.
             </li>
           </ul>
         </div>

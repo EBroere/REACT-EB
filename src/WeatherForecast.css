@@ -1,9 +1,22 @@
 .forecast-temperature-max {
   font-size: 15px;
   font-weight: 600;
-
 }
 
 .forecast-temperature-min {
   font-size: 15px;
 }
+
+.forecast-temperature {
+  margin-bottom: 50px !important;
+}
+
+.forecast-time {
+    margin-top: 50px;
+}
+
+.temperature-container {
+    justify-content: space-between;
+
+}
+
